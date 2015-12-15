@@ -1441,7 +1441,7 @@
             var ty = typeof str;
             return ty == "string" || ty == "number";
         },
-        isNumber: function(number) {
+        isNumber: function(str) {
             return typeof str == "number";
         },
         isUndefined: function(str) {
